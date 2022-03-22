@@ -11,13 +11,13 @@ public class Player : MonoBehaviour
     private bool isJumping;
 
 
-    // Start is called before the first frame update
+    
     void Start()
     {
       rig = GetComponent<Rigidbody2D>();  
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
       rig.velocity = new Vector2(Speed, rig.velocity.y);
